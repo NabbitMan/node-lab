@@ -12,3 +12,13 @@ sudo apt-get install -y build-essential
 ```bash
 node --version
 ```
+## Installing express-generator to create a scaffolding for your express app
+
+```bash
+npm install -g express-generator
+express --view=ejs newapp
+cd newapp/
+npm install
+DEBUG=newapp:* npm start
+# open the following URL in the browser: http://localhost:3000/
+```
