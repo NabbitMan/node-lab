@@ -1,2 +1,1 @@
-- integrate express application with mongo (Document DB)
 - integrate express application with mysql (RDBMS)
